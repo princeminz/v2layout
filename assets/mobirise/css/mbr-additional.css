@@ -2347,7 +2347,7 @@ body {
 }
 .cid-rifGN0z6be .navbar {
   padding: .5rem 0;
-  background: #800000;
+  background: rgba(128,0,0,.4);
   transition: none;
   min-height: 77px;
 }
@@ -3223,7 +3223,8 @@ body {
 .cid-rifT5Rm4zp {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #c1c1c1;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 @media (max-width: 767px) {
   .cid-rifT5Rm4zp .content {
