@@ -24,10 +24,10 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 2.8rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 4.48rem;
 }
 .display-2 {
   font-family: 'Dancing Script', handwriting;
@@ -38,10 +38,10 @@ body {
 }
 .display-4 {
   font-family: 'Pacifico', handwriting;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.28rem;
 }
 .display-5 {
   font-family: 'Miss Fajardose', handwriting;
@@ -64,9 +64,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.24rem;
+    font-size: calc( 1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.63rem + (2.8 - 1.63) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.36rem;
@@ -74,9 +74,9 @@ body {
     line-height: calc( 1.4 * (1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.64rem;
+    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 4.8rem;
@@ -1385,14 +1385,25 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #ff3366;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #ff3366;
+}
 .cid-rifGN0z6be .navbar {
   padding: .5rem 0;
-  background: #c11021;
+  background: #800000;
   transition: none;
   min-height: 77px;
 }
 .cid-rifGN0z6be .navbar-dropdown.bg-color.transparent.opened {
-  background: #c11021;
+  background: #800000;
 }
 .cid-rifGN0z6be a {
   font-style: normal;
@@ -1483,7 +1494,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rifGN0z6be .dropdown .dropdown-menu {
-  background: #c11021;
+  background: #800000;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2336,12 +2347,12 @@ body {
 }
 .cid-rifGN0z6be .navbar {
   padding: .5rem 0;
-  background: #c11021;
+  background: #800000;
   transition: none;
   min-height: 77px;
 }
 .cid-rifGN0z6be .navbar-dropdown.bg-color.transparent.opened {
-  background: #c11021;
+  background: #800000;
 }
 .cid-rifGN0z6be a {
   font-style: normal;
@@ -2432,7 +2443,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rifGN0z6be .dropdown .dropdown-menu {
-  background: #c11021;
+  background: #800000;
   display: none;
   position: absolute;
   min-width: 5rem;
