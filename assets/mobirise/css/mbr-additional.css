@@ -37,8 +37,9 @@ body {
   font-size: 2.72rem;
 }
 .display-4 {
-  font-family: 'Pacifico', handwriting;
-  font-size: 0.9rem;
+  font-family: 'Rubik';
+  font-size: .9rem;
+  
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.44rem;
@@ -2347,7 +2348,7 @@ body {
 }
 .cid-rifGN0z6be .navbar {
   padding: .5rem 0;
-  background: rgba(128,0,0,.4);
+  background: rgba(128,0,0,.8);
   transition: none;
   min-height: 77px;
 }
